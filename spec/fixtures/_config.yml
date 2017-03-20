@@ -1,0 +1,12 @@
+timezone: UTC
+
+gems:
+- jekyll-thumbor
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
