@@ -22,6 +22,10 @@ describe(Jekyll) do
   end
 
   it 'has a version number' do
-    expect(Jekyll::Thumbor::VERSION).not_to be nil
+    expect(Jekyll::ThumborTag::VERSION).not_to be nil
+  end
+
+  it 'does the template tag work' do
+    expect(contents).to match(/^<img src="https:\/\/thumbor.example.com\/(.*)=\/500x500\/https:\/\/example.com\/picture.jpg">$/)
   end
 end

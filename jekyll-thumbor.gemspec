@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll/thumbor/version'
+require 'jekyll/thumbor_tag'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-thumbor"
-  spec.version       = Jekyll::Thumbor::VERSION
+  spec.version       = Jekyll::ThumborTag::VERSION
   spec.summary       = %q{A Jekyll template tag for Thumbor imaging service.}
   spec.description   = %q{A Jekyll template tag for Thumbor imaging service.}
   spec.license       = "MIT"

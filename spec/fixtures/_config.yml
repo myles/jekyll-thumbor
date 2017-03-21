@@ -3,6 +3,10 @@ timezone: UTC
 gems:
 - jekyll-thumbor
 
+thumbor:
+  url: https://thumbor.example.com
+  key: my-security-key
+
 defaults:
   -
     scope:

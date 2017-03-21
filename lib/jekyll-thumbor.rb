@@ -1,2 +1,2 @@
 # rubocop: disable FileName
-require "jekyll/thumbor"
+require "jekyll/thumbor_tag"

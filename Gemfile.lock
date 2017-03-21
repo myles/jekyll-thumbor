@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-thumbor (0.3.3.pre)
+    jekyll-thumbor (0.1.0.pre)
       ruby-thumbor
 
 GEM

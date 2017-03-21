@@ -2,7 +2,7 @@ require 'simplecov'
 SimpleCov.start
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'jekyll/thumbor'
+require 'jekyll/thumbor_tag'
 require 'jekyll'
 
 Jekyll.logger.log_level = :error

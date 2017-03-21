@@ -1,4 +1,4 @@
-<!-- Jekyll::Thumbor Issue Ticket -->
+<!-- Jekyll::ThumborTag Issue Ticket -->
 <!-- To tackle bugs better, we recommend that you report one issue per ticket --> 
 
 ### Description:
@@ -6,7 +6,7 @@
 
 
 ### Tell us a bit about yourself:
-* Version of Jekyll::Thumbor I'm using <HINT: use `bundle show` to check>:
+* Version of Jekyll::ThumborTag I'm using <HINT: use `bundle show` to check>:
 * Version of Jekyll I'm using <HINT: use `bundle show` to check>:
 * Version of Ruby I'm using: 
 * Operating System <e.g. Linux, OS X, Windows>:

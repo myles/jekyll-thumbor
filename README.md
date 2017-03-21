@@ -1,4 +1,4 @@
-# Jekyll::Thumbor
+# Jekyll::ThumborTag
 
 A [Jekyll](https://jekyllrb.com/) template tag for [Thumbor](https://github.com/thumbor/thumbor) imaging service.
 
@@ -31,7 +31,9 @@ gems:
 
 ## Usage
 
-TODO
+```html
+<img src="{% thumbor_tag https://example.org/picture.jpg, width: 500, height: 500 %}"
+```
 
 ## Development
 
