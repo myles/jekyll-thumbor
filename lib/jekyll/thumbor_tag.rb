@@ -4,7 +4,7 @@ require "ruby-thumbor"
 module Jekyll
   class ThumborTag < Liquid::Tag
 
-    VERSION = "0.1.0"
+    VERSION = "'VERSION = "0.2.0"'"
 
     def initialize(tag_name, text, tokens)
       super
