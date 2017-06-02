@@ -31,6 +31,16 @@ gems:
 
 ## Usage
 
+You need to add an array for thumbor configuration to your `_config.yml` file:
+
+```yaml
+thumbor:
+  url: "https://your-thumbor-server"
+  key: "your-key"
+```
+
+Then in the liquid template you can use the template tag:
+
 ```html
 <img src="{% thumbor_tag https://example.org/picture.jpg, width: 500, height: 500 %}"
 ```
