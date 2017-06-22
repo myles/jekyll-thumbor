@@ -9,7 +9,3 @@ script:
   - bundle exec rake
 after_script:
   - bundle exec codeclimate-test-reporter
-after_success:
-  - gem install package_cloud
-  - bundle exec rake build
-  - package_cloud push myles/jekyll-thumbor pkg/jekyll-thumbor-0.3.0.gem
