@@ -42,7 +42,7 @@ thumbor:
 Then in the liquid template you can use the template tag:
 
 ```html
-<img src="{% thumbor_tag https://example.org/picture.jpg, width: 500, height: 500 %}"
+<img src="{% thumbor https://example.org/picture.jpg, width: 500, height: 500 %}"
 ```
 
 ## Development
