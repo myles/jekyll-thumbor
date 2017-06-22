@@ -19,14 +19,9 @@ module Jekyll
         end
       end
 
-<<<<<<< HEAD
-      def render(context)
-        @config = context.registers[:site].config['thumbor']
-=======
     def render(context)
       @url = Liquid::Template.parse(@url).render context
       @config = context.registers[:site].config['thumbor']
->>>>>>> ad314eb... added functionality to interpret jekyll variables
 
         image = Thumbor::Cascade.new(@config['key'], @url)
         image_url = image.width(@parameters['width']).height(@parameters['height']).generate
@@ -37,8 +32,4 @@ module Jekyll
   end
 end
 
-<<<<<<< HEAD
 Liquid::Template.register_tag('thumbor', Jekyll::ThumborTag::ThumborTag)
-=======
-Liquid::Template.register_tag('thumbor_tag', Jekyll::ThumborTag)
->>>>>>> ad314eb... added functionality to interpret jekyll variables
